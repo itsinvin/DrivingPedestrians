@@ -31,7 +31,7 @@ A BeamNG.drive mod that places **realistic human pedestrian drivers** inside veh
 
 ## Installation
 
-1. Download **[DrivingPedestrians.zip](https://github.com/itsinvin/DrivingPedestrians/releases/latest)** from Releases (or build it yourself — see Packaging below).
+1. Download **[DrivingPedestrians.zip](https://github.com/itsinvin/DrivingPedestrians/releases/latest)** from Releases.
 2. Place the zip in your BeamNG mods folder:
    - **Windows:** `%LOCALAPPDATA%/BeamNG.drive/current/mods/`
    - **Linux:** `~/.local/share/BeamNG.drive/current/mods/`
@@ -78,26 +78,7 @@ DrivingPedestrians/
 ├── scripts/drivingPedestrians/modScript.lua    # Loads GE extensions
 ├── lua/ge/extensions/drivingPedestrians/       # Auto-driver logic, settings
 ├── lua/vehicle/extensions/auto/                # Per-vehicle GFX hooks
-├── vehicles/common/drivingPedestrians/         # Meshes, materials, JBeam parts
-└── tools/generate_driver_mesh.py               # Mesh/texture generator
-```
-
-## Rebuilding Assets
-
-If you modify the mesh generator:
-
-```bash
-python3 tools/generate_driver_mesh.py
-```
-
-This regenerates `dp_driver.dae` and texture maps under `vehicles/common/drivingPedestrians/`.
-
-## Packaging
-
-```bash
-zip -r DrivingPedestrians.zip \
-  scripts lua vehicles tools README.md \
-  -x "*.git*" -x "*__pycache__*"
+└── vehicles/common/drivingPedestrians/         # Meshes, materials, JBeam parts
 ```
 
 ## Tips
