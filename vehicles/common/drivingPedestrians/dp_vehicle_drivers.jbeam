@@ -1,0 +1,391 @@
+{
+"dped_pickup_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "pickup_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true}]
+    ]
+},
+
+"dped_hseries_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "hseries_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":0.04}}]
+    ]
+},
+
+"dped_roamer_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "roamer_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":0.05}}]
+    ]
+},
+
+"dped_etk800_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "etk800_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetY":-0.02, "$dpedOffsetZ":-0.03}}]
+    ]
+},
+
+"dped_etkc_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "etkc_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetY":-0.02, "$dpedOffsetZ":-0.04}}]
+    ]
+},
+
+"dped_etki_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "etki_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.02}}]
+    ]
+},
+
+"dped_coupe_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "coupe_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.05}}]
+    ]
+},
+
+"dped_fullsize_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "fullsize_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.02}}]
+    ]
+},
+
+"dped_barstow_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "barstow_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.04}}]
+    ]
+},
+
+"dped_bluebuck_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "bluebuck_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.06}}]
+    ]
+},
+
+"dped_burnside_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "burnside_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.05}}]
+    ]
+},
+
+"dped_moonhawk_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "moonhawk_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.04}}]
+    ]
+},
+
+"dped_pessima_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "pessima_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.03}}]
+    ]
+},
+
+"dped_pessima2_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "pessima2_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.03}}]
+    ]
+},
+
+"dped_legran_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "legran_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.02}}]
+    ]
+},
+
+"dped_vivace_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "vivace_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.04}}]
+    ]
+},
+
+"dped_wendover_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "wendover_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.03}}]
+    ]
+},
+
+"dped_scintilla_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "scintilla_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.06, "$dpedOffsetY":0.02}}]
+    ]
+},
+
+"dped_sunburst_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "sunburst_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.03}}]
+    ]
+},
+
+"dped_sunburst2_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "sunburst2_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.03}}]
+    ]
+},
+
+"dped_covet_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "covet_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.05}}]
+    ]
+},
+
+"dped_miramar_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "miramar_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.04}}]
+    ]
+},
+
+"dped_hopper_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "hopper_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":0.02}}]
+    ]
+},
+
+"dped_midsize_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "midsize_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.02}}]
+    ]
+},
+
+"dped_bastion_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "bastion_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.03}}]
+    ]
+},
+
+"dped_autobello_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "autobello_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":-0.08, "$dpedOffsetY":0.03}}]
+    ]
+},
+
+"dped_lansdale_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "lansdale_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":0.03}}]
+    ]
+},
+
+"dped_us_semi_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "us_semi_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":0.12, "$dpedOffsetY":-0.05}}]
+    ]
+},
+
+"dped_citybus_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "citybus_mod",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true, "variables":{"$dpedOffsetZ":0.15, "$dpedOffsetY":-0.08}}]
+    ]
+},
+
+"dped_generic_driver": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver (Generic)",
+        "value":0
+    },
+    "slotType" : ["pigeon_mod","bolide_mod","atv_mod","etkess_mod","midtruck_mod","md_series_mod","rockbouncer_mod","dryvan_mod","tanker_mod","flatbed_mod","frameless_dump_mod","boxutility_mod","boxutility_large_mod","cargotrailer_mod","tsfb_mod","tiltdeck_mod","logs_mod","haybale_mod","container_mod","cones_mod","barrels_mod","cannon_mod","chassis_cab_mod","dumptruck_mod","forklift_mod","luxe_mod","navi_mod","racetruck_mod","sbr_mod","simple_traffic_mod","utv_mod","van_mod","wl40_mod","wl42_mod"],
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_package", "dped_driver_package", "Pedestrian Driver", {"coreSlot":true}]
+    ]
+}
+}

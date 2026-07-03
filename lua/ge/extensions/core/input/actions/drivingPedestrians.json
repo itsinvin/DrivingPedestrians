@@ -1,0 +1,18 @@
+{
+  "dped_toggleAutoDrivers": {
+    "cat": "gameplay",
+    "order": 960,
+    "ctx": "tlua",
+    "onDown": "drivingPedestrians_main.toggleAutoDrivers()",
+    "title": "Toggle Auto Pedestrian Drivers",
+    "desc": "Automatically add visible pedestrian drivers to spawned vehicles"
+  },
+  "dped_applyDriverNow": {
+    "cat": "gameplay",
+    "order": 961,
+    "ctx": "tlua",
+    "onDown": "drivingPedestrians_main.applyDriverToFocusedVehicle()",
+    "title": "Add Pedestrian Driver to Current Vehicle",
+    "desc": "Install a pedestrian driver on the vehicle you are currently controlling"
+  }
+}

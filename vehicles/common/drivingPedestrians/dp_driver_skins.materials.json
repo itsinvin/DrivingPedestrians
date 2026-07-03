@@ -1,0 +1,87 @@
+{
+  "dp_skin.skin_dped_driver_skin.casual_f": {
+    "name": "dp_skin.skin_dped_driver_skin.casual_f",
+    "mapTo": "dp_skin.skin_dped_driver_skin.casual_f",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/null.dds",
+        "diffuseColor": [0.86, 0.68, 0.56, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "dp_shirt.skin_dped_driver_skin.casual_f": {
+    "name": "dp_shirt.skin_dped_driver_skin.casual_f",
+    "mapTo": "dp_shirt.skin_dped_driver_skin.casual_f",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/null.dds",
+        "diffuseColor": [0.78, 0.42, 0.52, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.75
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "dp_skin.skin_dped_driver_skin.business": {
+    "name": "dp_skin.skin_dped_driver_skin.business",
+    "mapTo": "dp_skin.skin_dped_driver_skin.business",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/null.dds",
+        "diffuseColor": [0.78, 0.64, 0.52, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.65
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "dp_shirt.skin_dped_driver_skin.business": {
+    "name": "dp_shirt.skin_dped_driver_skin.business",
+    "mapTo": "dp_shirt.skin_dped_driver_skin.business",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/null.dds",
+        "diffuseColor": [0.22, 0.24, 0.30, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "dp_pants.skin_dped_driver_skin.business": {
+    "name": "dp_pants.skin_dped_driver_skin.business",
+    "mapTo": "dp_pants.skin_dped_driver_skin.business",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/null.dds",
+        "diffuseColor": [0.18, 0.20, 0.26, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.85
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  }
+}
