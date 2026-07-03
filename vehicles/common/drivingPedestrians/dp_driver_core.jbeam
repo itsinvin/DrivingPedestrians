@@ -1,0 +1,163 @@
+{
+"dped_driver_body": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver Body",
+        "value":0
+    },
+    "slotType" : "dped_driver_body",
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$dpedOffsetX", "range", "m", "Driving Pedestrians", 0, -0.35, 0.35, "Driver Side Offset", "Move the driver left or right in the seat"],
+        ["$dpedOffsetY", "range", "m", "Driving Pedestrians", 0, -0.35, 0.35, "Driver Fore/Aft Offset", "Move the driver forward or backward"],
+        ["$dpedOffsetZ", "range", "m", "Driving Pedestrians", 0, -0.25, 0.25, "Driver Height Offset", "Raise or lower the driver in the seat"],
+        ["$dpedRotZ", "range", "deg", "Driving Pedestrians", 0, -25, 25, "Driver Body Rotation", "Rotate the driver slightly in the seat"]
+    ],
+    "nodes": [
+        ["id", "posX", "posY", "posZ"],
+        {"collision":false},
+        {"selfCollision":false},
+        {"nodeWeight":0.05},
+        {"group":"dped_anchor"},
+        ["dped_ref", "$dpedOffsetX+0.44", "$dpedOffsetY-0.40", "$dpedOffsetZ+0.70"],
+        ["dped_x", "$dpedOffsetX+0.54", "$dpedOffsetY-0.40", "$dpedOffsetZ+0.70"],
+        ["dped_y", "$dpedOffsetX+0.44", "$dpedOffsetY-0.40", "$dpedOffsetZ+0.80"],
+        {"group":""}
+    ],
+    "beams": [
+        ["id1:", "id2:"],
+        {"beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+        {"beamSpring":1000000, "beamDamp":100},
+        {"beamDeform":50000, "beamStrength":"FLT_MAX"},
+        ["dped_ref", "dped_x"],
+        ["dped_ref", "dped_y"],
+        ["dped_x", "dped_y"]
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["dp_driver_head", "dped_anchor"],
+        ["dp_driver_face", "dped_anchor"],
+        ["dp_driver_neck", "dped_anchor"],
+        ["dp_driver_torso", "dped_anchor"],
+        ["dp_driver_pelvis", "dped_anchor"],
+        ["dp_driver_thigh_L", "dped_anchor"],
+        ["dp_driver_thigh_R", "dped_anchor"],
+        ["dp_driver_calf_L", "dped_anchor"],
+        ["dp_driver_calf_R", "dped_anchor"],
+        ["dp_driver_foot_L", "dped_anchor"],
+        ["dp_driver_foot_R", "dped_anchor"],
+        ["dp_driver_upperarm_L", "dped_anchor"],
+        ["dp_driver_lowerarm_L", "dped_anchor"],
+        ["dp_driver_hand_L", "dped_anchor"],
+        ["dp_driver_upperarm_R", "dped_anchor"]
+    ],
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "dp_driver_lowerarm_R", "dped_ref", "dped_x", "dped_y", {"x":0, "y":0, "z":95}, {"x":0, "y":0, "z":0.55}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":-0.22, "y":0.06, "z":-0.22}}],
+        ["steering", "dp_driver_hand_R", "dped_ref", "dped_x", "dped_y", {"x":0, "y":0, "z":95}, {"x":0, "y":0, "z":0.55}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":-0.22, "y":0.08, "z":-0.32}}]
+    ]
+},
+
+"dped_skin_casual_m": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Casual Male Driver",
+        "value":0
+    },
+    "slotType" : "dped_driver_skin",
+    "skinName" : "casual_m"
+},
+
+"dped_skin_casual_f": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Casual Female Driver",
+        "value":0
+    },
+    "slotType" : "dped_driver_skin",
+    "skinName" : "casual_f"
+},
+
+"dped_skin_business": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Business Driver",
+        "value":0
+    },
+    "slotType" : "dped_driver_skin",
+    "skinName" : "business"
+},
+
+"dped_passenger_empty": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"No Passenger",
+        "value":0
+    },
+    "slotType" : "dped_passenger_slot"
+},
+
+"dped_passenger_casual": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Front Passenger",
+        "value":0
+    },
+    "slotType" : "dped_passenger_slot",
+    "nodes": [
+        ["id", "posX", "posY", "posZ"],
+        {"collision":false},
+        {"selfCollision":false},
+        {"nodeWeight":0.05},
+        {"group":"dped_pass_anchor"},
+        ["dped_pref", -0.44, -0.40, 0.70],
+        ["dped_px", -0.54, -0.40, 0.70],
+        ["dped_py", -0.44, -0.40, 0.80],
+        {"group":""}
+    ],
+    "beams": [
+        ["id1:", "id2:"],
+        {"beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+        {"beamSpring":1000000, "beamDamp":100},
+        {"beamDeform":50000, "beamStrength":"FLT_MAX"},
+        ["dped_pref", "dped_px"],
+        ["dped_pref", "dped_py"],
+        ["dped_px", "dped_py"]
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["dp_driver_head", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_face", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_neck", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_torso", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_pelvis", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_thigh_L", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_thigh_R", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_calf_L", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_calf_R", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_foot_L", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_foot_R", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_upperarm_L", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_lowerarm_L", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_hand_L", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_upperarm_R", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_lowerarm_R", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}],
+        ["dp_driver_hand_R", "dped_pass_anchor", [], {"pos":{"x":-0.86, "y":0.0, "z":0.0}}]
+    ]
+},
+
+"dped_driver_package": {
+    "information":{
+        "authors":"DrivingPedestrians",
+        "name":"Pedestrian Driver",
+        "value":0
+    },
+    "slotType" : "dped_driver_package",
+    "slots": [
+        ["type", "default", "description"],
+        ["dped_driver_body", "dped_driver_body", "Driver Body", {"coreSlot":true}],
+        ["dped_driver_skin", "dped_skin_casual_m", "Driver Appearance"],
+        ["dped_passenger_slot", "dped_passenger_empty", "Front Passenger"]
+    ]
+}
+}

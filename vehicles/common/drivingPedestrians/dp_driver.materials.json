@@ -1,0 +1,82 @@
+{
+  "dp_skin": {
+    "name": "dp_skin",
+    "mapTo": "dp_skin",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/drivingPedestrians/textures/dp_skin.color.png",
+        "metallicFactor": 0,
+        "roughnessFactor": 0.72
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "dp_hair": {
+    "name": "dp_hair",
+    "mapTo": "dp_hair",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/drivingPedestrians/textures/dp_hair.color.png",
+        "metallicFactor": 0,
+        "roughnessFactor": 0.55
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "dp_shirt": {
+    "name": "dp_shirt",
+    "mapTo": "dp_shirt",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/drivingPedestrians/textures/dp_shirt.color.png",
+        "metallicFactor": 0,
+        "roughnessFactor": 0.78
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "dp_pants": {
+    "name": "dp_pants",
+    "mapTo": "dp_pants",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/drivingPedestrians/textures/dp_pants.color.png",
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "dp_shoes": {
+    "name": "dp_shoes",
+    "mapTo": "dp_shoes",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/drivingPedestrians/textures/dp_shoes.color.png",
+        "metallicFactor": 0,
+        "roughnessFactor": 0.65
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  }
+}
