@@ -1,5 +1,19 @@
 # Driving Pedestrians
 
+> **Realistic human drivers for every car in BeamNG.drive** — no more ghost vehicles.
+
+## Description
+
+**Driving Pedestrians** is a BeamNG.drive mod that fills empty driver seats with visible, human-looking pedestrians so your world feels alive. Whether you are cruising through traffic, filming a chase, testing crashes, or just driving around, cars finally look like someone is behind the wheel.
+
+Each driver is a fully modeled seated character with skin tones, hair, clothing, and shoes. They are anchored to the vehicle with JBeam flexbodies, so they move, lean, and deform with the car during hard braking, cornering, and collisions. The right arm is rigged as a steering prop, rotating with the wheel so it genuinely looks like the pedestrian is driving — not just sitting there.
+
+The mod supports **30+ official BeamNG vehicles** out of the box with hand-tuned seat positions, plus a **generic fallback** for modded cars and anything with an Additional Modification slot. You can pick from multiple driver appearances, add an optional front passenger, fine-tune placement in the Tuning menu, or let the built-in auto-enable system populate drivers on every spawned vehicle — including traffic and AI.
+
+**[Download the latest release (DrivingPedestrians.zip)](https://github.com/itsinvin/DrivingPedestrians/releases/latest)**
+
+---
+
 A BeamNG.drive mod that places **realistic human pedestrian drivers** inside vehicles so they no longer look empty. Drivers sit in a natural driving pose, track vehicle movement, and animate their steering arm with the wheel.
 
 ## Features
@@ -17,7 +31,7 @@ A BeamNG.drive mod that places **realistic human pedestrian drivers** inside veh
 
 ## Installation
 
-1. Download or build `DrivingPedestrians.zip` from this repository.
+1. Download **[DrivingPedestrians.zip](https://github.com/itsinvin/DrivingPedestrians/releases/latest)** from Releases (or build it yourself — see Packaging below).
 2. Place the zip in your BeamNG mods folder:
    - **Windows:** `%LOCALAPPDATA%/BeamNG.drive/current/mods/`
    - **Linux:** `~/.local/share/BeamNG.drive/current/mods/`
